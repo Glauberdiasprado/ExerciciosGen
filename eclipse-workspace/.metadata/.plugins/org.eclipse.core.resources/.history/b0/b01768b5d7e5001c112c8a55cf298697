@@ -1,0 +1,34 @@
+package br.comgeneration.aula02;
+
+import java.util.Scanner;
+
+public class Exer01 {
+
+	public static void main(String[] args) {
+		//*1. Faça um sistema que leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressa apenas em dias.
+
+		
+		Scanner leia = new Scanner(System.in);
+		
+		double dia = 1, mes = 30, ano = 365, dias = 9, meses = 6, anos = 22, total;
+		
+		int total1 = (int) (dia * dias + mes * meses + ano * anos);
+		
+		System.out.println("Dia do nascimento: " );
+		dia = leia.nextDouble();
+		
+		System.out.println("Mes de nascimento: " );
+		mes = leia.nextDouble();
+		
+		System.out.println("Ano do nascimento: " );
+		ano = leia.nextDouble();
+		
+		System.out.println("quantidade de dias : " + total1 );
+		dias = leia.nextDouble();
+		
+		System.out.println("Total de dias de vida: " + total1 );
+		total1 = (int) leia.nextDouble();
+		
+	}
+
+}

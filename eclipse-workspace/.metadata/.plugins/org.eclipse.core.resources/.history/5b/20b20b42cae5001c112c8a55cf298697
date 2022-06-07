@@ -1,0 +1,18 @@
+package br.comgeneration.aula02;
+
+public class Exemplovariavel03 {
+
+	public static void main(String[] args) {
+		
+		double galoes, litros;
+		
+		galoes =10;
+		
+		litros =galoes * 3.7854;
+		
+		System.out.println(galoes + "Galões USA são: " + litros + "Litros: ");
+		
+
+	}
+
+}

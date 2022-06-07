@@ -1,0 +1,12 @@
+package br.comgeneration.aula02;
+
+public class Exemplovariavel03 {
+
+	public static void main(String[] args) {
+		
+		byte n = -128;
+		byte n2 = 125;
+
+	}
+
+}
