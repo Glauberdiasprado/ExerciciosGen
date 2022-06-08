@@ -19,7 +19,7 @@ public class ExercicioFor02 {
             if ( num % 2 == 0 ){
                 par++;
             }
-            if ( num % 2 == 0 ){
+            else{
                 impar++;
             }
 
