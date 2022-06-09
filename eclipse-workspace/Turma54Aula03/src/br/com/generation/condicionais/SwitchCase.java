@@ -1,4 +1,4 @@
-package br.comgeneration.condicionais;
+package br.com.generation.condicionais;
 
 import java.util.Scanner;
 
