@@ -10,7 +10,7 @@ public class ExemploDowhile {
 			System.out.println(i);
 			i++;
 			Thread.sleep(500);
-		}while(i < 7);
+		}while(i < 10);
 	}
 
 }
